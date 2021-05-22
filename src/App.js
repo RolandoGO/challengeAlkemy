@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from "react";
-import Home from "./components/Home";
-import Login from "./components/Login";
+import Home from "./components/home";
+import Login from "./components/login";
 import { CharacterContext } from "./context/context";
 import { useCharacter } from "./hooks/useCharacter";
 import { useLogin } from "./hooks/useLogin";
